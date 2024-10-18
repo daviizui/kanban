@@ -108,22 +108,22 @@ body {
 }
 
 .badge {
-    color: #ffffff;
+    color: black;
     width: fit-content;
     font-size: 12px;
     padding: 4px 8px;
     border-radius: 12px;
 }
 
-.badge.high {
+.badgehigh {
     background-color: #d573b6;
 }
 
-.badge.medium {
+.badgemedium {
     background-color: #fea065;
 }
 
-.badge.low {
+.badgelow {
     background-color: #92a5fb;
 }
 
@@ -170,4 +170,11 @@ body {
 *::-webkit-scrollbar-thumb {
     background-color: #b7d3fb;
     border-radius: 20px;
+}
+.input-atividade{
+    border: none;
+}
+
+#teste{
+    background-color: #6ed0bc;
 }

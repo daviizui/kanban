@@ -19,21 +19,20 @@
                     Pendente
                 </h2>
 
-                <button class="add-card">
+                <button class="add-card" id="add-card">
                     <i class="fa-solid fa-plus"></i>
                 </button>
             </div>
 
             <div class="kanban-cards">
                 <div class="kanban-card" draggable="true">
-                    <div class="badge high">
-                        <span>
-                            Alta prioridade
-                        </span>
-                    </div>
-                    <p class="cardtitle">
-                        Revisar documento do projeto
-                    </p>
+                    <select class="badge" name="Prioridade" id="">
+                        <option class="badgehigh">Alta prioridade</option>
+                        <option class="badgemedium">Medium</option>
+                        <option class="badgelow">Low</option>
+                    </select>
+
+                    <input class="input-atividade" type="text" placeholder="Digite sua atividade" id="input-atividade">
                     <div class="card-infos">
                         <div class="card-icons">
                             <p>
@@ -70,14 +69,13 @@
 
             <div class="kanban-cards">
                 <div class="kanban-card" draggable="true">
-                    <div class="badge medium">
-                        <span>
-                            Alta prioridade
-                        </span>
-                    </div>
-                    <p class="cardtitle">
-                        Revisar documento do projeto
-                    </p>
+                    <select class="badge" name="Prioridade" id="">
+                        <option class="badgehigh">Alta prioridade</option>
+                        <option class="badgemedium">Medium</option>
+                        <option class="badgelow">Low</option>
+                    </select>
+
+                    <input class="input-atividade" type="text" placeholder="Digite sua atividade" id="input-atividade">
                     <div class="card-infos">
                         <div class="card-icons">
                             <p>
@@ -113,14 +111,13 @@
 
             <div class="kanban-cards">
                 <div class="kanban-card" draggable="true">
-                    <div class="badge low">
-                        <span>
-                            Alta prioridade
-                        </span>
-                    </div>
-                    <p class="cardtitle">
-                        Revisar documento do projeto
-                    </p>
+                    <select class="badge" name="Prioridade" id="">
+                        <option class="badgehigh">Alta prioridade</option>
+                        <option class="badgemedium">Medium</option>
+                        <option class="badgelow">Low</option>
+                    </select>
+
+                    <input class="input-atividade" type="text" placeholder="Digite sua atividade" id="input-atividade">
                     <div class="card-infos">
                         <div class="card-icons">
                             <p>
@@ -156,14 +153,13 @@
 
             <div class="kanban-cards">
                 <div class="kanban-card" draggable="true">
-                    <div class="badge high">
-                        <span>
-                            Alta prioridade
-                        </span>
-                    </div>
-                    <p class="cardtitle">
-                        Revisar documento do projeto
-                    </p>
+                    <select class="badge" name="Prioridade" id="">
+                        <option class="badgehigh">Alta prioridade</option>
+                        <option class="badgemedium">Medium</option>
+                        <option class="badgelow">Low</option>
+                    </select>
+
+                    <input class="input-atividade" type="text" placeholder="Digite sua atividade" id="input-atividade">
                     <div class="card-infos">
                         <div class="card-icons">
                             <p>
@@ -189,7 +185,7 @@
          <div class="kanban-column" data-id="5">
             <div class="kanban-title">
                 <h2>
-                    COncluído
+                    Concluído
                 </h2>
 
                 <button class="add-card">
@@ -199,14 +195,13 @@
 
             <div class="kanban-cards">
                 <div class="kanban-card" draggable="true">
-                    <div class="badge high">
-                        <span>
-                            Alta prioridade
-                        </span>
-                    </div>
-                    <p class="cardtitle">
-                        Revisar documento do projeto
-                    </p>
+                    <select class="badge" name="Prioridade" id="">
+                        <option class="badgehigh">Alta prioridade</option>
+                        <option class="badgemedium">Medium</option>
+                        <option class="badgelow">Low</option>
+                    </select>
+
+                    <input class="input-atividade" type="text" placeholder="Digite sua atividade" id="input-atividade">
                     <div class="card-infos">
                         <div class="card-icons">
                             <p>
@@ -230,6 +225,8 @@
 
        
     </main>
-    <script src="./javascript/script.js"></script>
+    <script src="./javascript/script.js" ></script>
+    <script src="./javascript/criarCard.js"></script>
+ 
 </body>
 </html>
